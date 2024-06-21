@@ -120,20 +120,9 @@ const About = () => {
                 className="icon-custom"
               />
             </div>
-            <Link
-              to="https://drive.google.com/file/d/1mhKzEMjdY1h6gmoi_Q2u9iHvV9dLujpd/view?usp=sharing"
-              target="_blank"
-            >
-              <button
-                className="flex flex-col items-center justify-center mt-8 bg-gray-800 px-8 py-5
-                     text-white hover:text-black font-bold text-2xl rounded-full hover:bg-gray-200"
-              >
-                Download CV
-              </button>
-            </Link>
           </div>
           <div className="flex flex-col items-center justify-center px-4 md:px-0">
-            <h2 className="text-lg sm:text-2xl md:text-2xl max-w-xl mb-6 font-extrabold text-white text-justify">
+            <h2 className="text-lg sm:text-2xl md:text-2xl max-w-xl font-extrabold text-white text-justify mb-4">
               I am a passionate software developer with an enthusiasm for
               building efficient and innovative solutions. 🖥️Proficient in
               HTML5, CSS3, JavaScript, ReactJS, MongoDB, ExpressJS, PostgreSQL,
@@ -143,6 +132,17 @@ const About = () => {
               tech industry trends to deliver cutting-edge solutions that
               satisfy user experiences.🕊️
             </h2>
+            <Link
+              to="https://drive.google.com/file/d/1mhKzEMjdY1h6gmoi_Q2u9iHvV9dLujpd/view?usp=sharing"
+              target="_blank"
+            >
+              <button
+                className="flex flex-col items-center justify-center bg-gray-800 px-8 py-5
+                     text-white hover:text-black font-bold text-2xl rounded-full hover:bg-gray-200"
+              >
+                Download CV
+              </button>
+            </Link>
           </div>
         </div>
       </div>
