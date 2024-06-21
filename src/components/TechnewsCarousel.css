@@ -22,3 +22,50 @@
 .project-card img:hover {
   opacity: 0.5;
 }
+
+/* Centers and responsiveness for images */
+.technews .slick-slide img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Adjusts spacing around slides */
+.technews .slick-slide {
+  padding: 0 10px;
+}
+
+/* Adjusts arrows and dots */
+.technews .slick-prev,
+.technews .slick-next {
+  color: white;
+  z-index: 1;
+}
+
+.technews .slick-dots {
+  bottom: -30px;
+}
+
+.technews .slick-dots li button:before {
+  color: white;
+}
+
+/* Ensures the carousel container takes full height and centers the content */
+.technews {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+@media (max-width: 768px) {
+  .technews .slick-slide {
+    padding: 0 5px;
+  }
+
+  .technews .slick-prev,
+  .technews .slick-next {
+    display: none !important;
+  }
+}
