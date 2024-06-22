@@ -29,7 +29,7 @@ import ProjectImage1 from "../assets/xrental-new.png";
 import ProjectImage2 from "../assets/Blog5.png";
 import ProjectImage3 from "../assets/Kedu_New.png";
 import ProjectImage4 from "../assets/Car-stand.png";
-import ProjectImage5 from "../assets/movixinfo.png";
+import ProjectImage5 from "../assets/movix-logo.png";
 import ProjectImage6 from "../assets/my-todo.png";
 
 const technologyIcons = {
@@ -110,6 +110,14 @@ const Projects = () => {
     },
     {
       id: 4,
+      title: "MOVIX",
+      description: "Search for Movies trailers",
+      image: ProjectImage5,
+      url: "https://movix-trailers.vercel.app/",
+      technologies: ["ReactJS", "API", "CSS3", "Git", "GitHub"],
+    },
+    {
+      id: 5,
       title: "CAR STAND",
       description: "A simple car showroom application",
       image: ProjectImage4,
@@ -124,21 +132,7 @@ const Projects = () => {
         "GitHub",
       ],
     },
-    {
-      id: 5,
-      title: "MOVIX INFO",
-      description: "Search for Movies and TV show information",
-      image: ProjectImage5,
-      url: "https://anthonyemm.github.io/movix-info/",
-      technologies: [
-        "ReactJS",
-        "Styled Component",
-        "API",
-        "CSS3",
-        "Git",
-        "GitHub",
-      ],
-    },
+
     {
       id: 6,
       title: "TaskMgt",
