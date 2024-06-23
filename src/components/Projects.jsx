@@ -29,7 +29,7 @@ import ProjectImage1 from "../assets/xrental-new.png";
 import ProjectImage2 from "../assets/Blog5.png";
 import ProjectImage3 from "../assets/Kedu_New.png";
 import ProjectImage4 from "../assets/Car-stand.png";
-import ProjectImage5 from "../assets/movix-new.png";
+import ProjectImage5 from "../assets/Movix-new.png";
 import ProjectImage6 from "../assets/my-todo.png";
 
 const technologyIcons = {
