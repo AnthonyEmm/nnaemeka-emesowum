@@ -111,7 +111,7 @@ const Projects = () => {
     {
       id: 4,
       title: "MOVIX TRAIL",
-      description: "Search for Movie trailers",
+      description: "Search for your favorite Movie trailers",
       image: ProjectImage5,
       url: "https://movix-trail.vercel.app/",
       technologies: ["ReactJS", "API", "CSS3", "Git", "GitHub"],
