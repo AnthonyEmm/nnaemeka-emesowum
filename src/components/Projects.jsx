@@ -28,7 +28,7 @@ import { FaGitAlt } from "react-icons/fa";
 import ProjectImage1 from "../assets/xrental-new.png";
 import ProjectImage2 from "../assets/Blog5.png";
 import ProjectImage3 from "../assets/Kedu_New.png";
-import ProjectImage4 from "../assets/Car-stand.png";
+import ProjectImage4 from "../assets/Delux_Rental_WP.png";
 import ProjectImage5 from "../assets/new-logo_movix.png";
 import ProjectImage6 from "../assets/my-todo.png";
 
@@ -110,29 +110,20 @@ const Projects = () => {
     },
     {
       id: 4,
+      title: "DELUXRENTAL",
+      description: "DeluxRental is a luxury car rental service application.",
+      image: ProjectImage4,
+      url: "https://deluxrental.vercel.app/",
+      technologies: ["ReactJS", "TailwindCSS", "Vercel", "Git", "GitHub"],
+    },
+    {
+      id: 5,
       title: "MOVIX TRAIL",
       description: "Search and watch your favorite movie trailers",
       image: ProjectImage5,
       url: "https://movix-trail.vercel.app/",
       technologies: ["ReactJS", "API", "CSS3", "Git", "GitHub"],
     },
-    {
-      id: 5,
-      title: "CAR STAND",
-      description: "A simple car showroom application",
-      image: ProjectImage4,
-      url: "https://car-stand-booking.vercel.app/",
-      technologies: [
-        "TypeScript",
-        "TailwindCSS",
-        "Headless UI",
-        "API",
-        "Vercel",
-        "Git",
-        "GitHub",
-      ],
-    },
-
     {
       id: 6,
       title: "TaskMgt",
