@@ -23,7 +23,7 @@ import {
   SiVercel,
   SiStyledcomponents,
 } from "react-icons/si";
-import { TbApi } from "react-icons/tb";
+import { TbApi, TbBrandFramerMotion } from "react-icons/tb";
 import { FaGitAlt } from "react-icons/fa";
 import ProjectImage1 from "../assets/xrental-new.png";
 import ProjectImage2 from "../assets/Blog5.png";
@@ -31,6 +31,7 @@ import ProjectImage3 from "../assets/Kedu_New.png";
 import ProjectImage4 from "../assets/Delux_Rental_WP.png";
 import ProjectImage5 from "../assets/new-logo_movix.png";
 import ProjectImage6 from "../assets/my-todo.png";
+import ProjectImage7 from "../assets/FC_Flippers.png";
 
 const technologyIcons = {
   ReactJS: <FaReact />,
@@ -53,12 +54,29 @@ const technologyIcons = {
   Vercel: <SiVercel />,
   API: <TbApi />,
   "Styled Component": <SiStyledcomponents />,
+  "Framer Motion": <TbBrandFramerMotion />,
 };
 
 const Projects = () => {
   const projects = [
     {
       id: 1,
+      title: "FC FLIPPERS",
+      description: "FC Flippers is a professional football club website.",
+      image: ProjectImage7,
+      url: "https://fcflippers.vercel.app/",
+      technologies: [
+        "ReactJS",
+        "TailwindCSS",
+        "Vercel",
+        "Git",
+        "GitHub",
+        "AOS",
+        "Framer Motion",
+      ],
+    },
+    {
+      id: 2,
       title: "X RENTAL",
       description:
         "An app that helps tenants find apartment directly with owners. A WBS CODING SCHOOL, Berlin final project",
@@ -80,7 +98,7 @@ const Projects = () => {
       ],
     },
     {
-      id: 2,
+      id: 3,
       title: "DELUXRENTAL",
       description: "DeluxRental is a luxury car rental service application.",
       image: ProjectImage4,
@@ -88,7 +106,7 @@ const Projects = () => {
       technologies: ["ReactJS", "TailwindCSS", "Vercel", "Git", "GitHub"],
     },
     {
-      id: 3,
+      id: 4,
       title: "KEDU! RECIPES",
       description: "©KEDU! Recipes showcases a variety of Nigerian cooking",
       image: ProjectImage3,
@@ -96,7 +114,7 @@ const Projects = () => {
       technologies: ["ReactJS", "CSS3", "TailwindCSS", "Git", "GitHub"],
     },
     {
-      id: 4,
+      id: 5,
       title: "BLOGGER5IVE",
       description: "A blog app to share your amazing articles",
       image: ProjectImage2,
@@ -117,7 +135,7 @@ const Projects = () => {
       ],
     },
     {
-      id: 5,
+      id: 6,
       title: "MOVIX TRAIL",
       description: "Search and watch your favorite movie trailers",
       image: ProjectImage5,
@@ -125,7 +143,7 @@ const Projects = () => {
       technologies: ["ReactJS", "API", "CSS3", "Git", "GitHub"],
     },
     {
-      id: 6,
+      id: 7,
       title: "TaskMgt",
       description: "Todo list (Desktop/Mobile)",
       image: ProjectImage6,
