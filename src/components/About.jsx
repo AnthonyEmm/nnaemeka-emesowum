@@ -133,7 +133,7 @@ const About = () => {
               satisfy user experiences.🕊️
             </h2>
             <Link
-              to="https://drive.google.com/file/d/1C_VlPHglWte28SI9gD-BMDy-i-ggMJhd/view?usp=sharing"
+              to="https://drive.google.com/file/d/1mibAUovsaaB4qp6RNWFGr0HmlfK1f-HW/view?usp=sharing"
               target="_blank"
             >
               <button
