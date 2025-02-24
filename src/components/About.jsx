@@ -132,17 +132,32 @@ const About = () => {
               tech industry trends to deliver cutting-edge solutions that
               satisfy user experiences.🕊️
             </h2>
-            <Link
-              to="https://drive.google.com/file/d/1mibAUovsaaB4qp6RNWFGr0HmlfK1f-HW/view?usp=sharing"
-              target="_blank"
-            >
-              <button
-                className="flex flex-col items-center justify-center bg-gray-800 px-8 py-5
-                     text-white hover:text-black font-bold text-2xl rounded-full hover:bg-gray-200"
+            <div className="flex flex-wrap justify-center gap-4 md:justify-between">
+              <Link
+                to="https://drive.google.com/file/d/1mibAUovsaaB4qp6RNWFGr0HmlfK1f-HW/view?usp=sharing"
+                target="_blank"
               >
-                Download CV
-              </button>
-            </Link>
+                <button
+                  className="flex items-center justify-center bg-gray-800 px-8 py-5
+                 text-white hover:text-black font-bold text-2xl rounded-full 
+                 hover:bg-gray-200 transition"
+                >
+                  Download CV (ENG)
+                </button>
+              </Link>
+              <Link
+                to="https://drive.google.com/file/d/11BbPoXjpJWBv0I4exzxjYFW1u9ji3BT5/view?usp=sharing"
+                target="_blank"
+              >
+                <button
+                  className="flex items-center justify-center bg-gray-800 px-8 py-5
+                 text-white hover:text-black font-bold text-2xl rounded-full 
+                 hover:bg-gray-200 transition"
+                >
+                  Download CV (GER)
+                </button>
+              </Link>
+            </div>
           </div>
         </div>
       </div>
