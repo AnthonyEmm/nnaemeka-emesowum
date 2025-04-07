@@ -12,7 +12,7 @@ const Hero = () => {
             👋🏿Hi, I'm Nnaemeka
           </h1>
           <p className="text-lg md:text-5xl mb-3 mt-4 font-extrabold text-white fade-in">
-            SOFTWARE <strong className="text-white">DEVELOPER</strong>
+            FULL STACK <strong className="text-white">DEVELOPER</strong>
           </p>
           <div className="flex space-x-4">
             <Link
