@@ -49,7 +49,7 @@ const About = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 mt-16 gap-16">
           <div className="flex flex-col items-center justify-center">
-            <div className="flex flex-wrap justify-center gap-8">
+            <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-6 w-full justify-items-center">
               <img
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg"
                 alt="Redux"
@@ -81,8 +81,6 @@ const About = () => {
                 size="4x"
                 className="text-blue-600 animate-bounce"
               />
-            </div>
-            <div className="flex flex-wrap justify-center gap-3 mt-5">
               <FontAwesomeIcon
                 icon={faNodeJs}
                 size="4x"
