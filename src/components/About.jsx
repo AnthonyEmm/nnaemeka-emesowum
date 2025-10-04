@@ -116,6 +116,13 @@ const About = () => {
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original-wordmark.svg"
                 alt="Tailwind CSS"
                 className="icon-custom"
+                style={{ height: "80px", width: "100px" }}
+              />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
+                alt="TypeScript"
+                className="icon-custom"
+                style={{ height: "60px", width: "60px" }}
               />
             </div>
           </div>
