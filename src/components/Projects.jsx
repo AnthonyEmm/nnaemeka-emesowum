@@ -142,14 +142,6 @@ const Projects = () => {
       url: "https://movix-trail.vercel.app/",
       technologies: ["ReactJS", "API", "CSS3", "Git", "GitHub"],
     },
-    {
-      id: 7,
-      title: "TaskMgt",
-      description: "Todo list (Desktop/Mobile)",
-      image: ProjectImage6,
-      url: "https://anthonyemm.github.io/task-mgt/",
-      technologies: ["Html", "CSS3", "JavaScript", "Git", "GitHub"],
-    },
   ];
 
   const [showDescription, setShowDescription] = useState(null);
