@@ -102,7 +102,7 @@ const Projects = () => {
       title: "DELUXRENTAL",
       description: "DeluxRental is a luxury car rental service application.",
       image: ProjectImage4,
-      url: "https://deluxrental.vercel.app/",
+      url: "https://delux-rental.vercel.app/",
       technologies: ["ReactJS", "TailwindCSS", "Vercel", "Git", "GitHub"],
     },
     {
